@@ -30,7 +30,8 @@ Install pybullet:
 
 ## Execution
 - run cql_train.py
-Please note: my default setting for epochs is 20, and you can make changes if you go cql_train.py, and change the number after "EPOCHS:". 
+
+#### Please note: my default setting for epochs is 20, and you can make changes if you go cql_train.py, and change the number after "EPOCHS:". 
 
 My Colab example: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1lrWwum2tzp38XVESQ-OC0GLQYbQSwRaV#scrollTo=Wcpp9bHNJD1l)
 
@@ -48,13 +49,4 @@ Here is the graphs received from the most recent execution data:
 
 
 ## citation
-The paper is available [here](https://arxiv.org/abs/2111.03788).
-```
-@InProceedings{seno2021d3rlpy,
-  author = {Takuma Seno, Michita Imai},
-  title = {d3rlpy: An Offline Deep Reinforcement Library},
-  booktitle = {NeurIPS 2021 Offline Reinforcement Learning Workshop},
-  month = {December},
-  year = {2021}
-}
-```
+The repository is modified on top of [d3rlpy](https://github.com/takuseno/d3rlpy).
