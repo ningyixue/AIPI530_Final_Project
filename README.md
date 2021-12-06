@@ -43,7 +43,7 @@ My Colab example: [![Open In Colab](https://colab.research.google.com/assets/col
 
 #### You can find the three files under '/d3rlpy/examples/pybullet/d3rlpy_logs' once you finished running cql_train.py
 
-Here is the graphs received from the most recent execution data:
+Here is the graphs received from the most recent execution with 20 epochs:
 ![img.png](https://github.com/ningyixue/AIPI530_Final_Project/blob/main/offline_rl.png)
 
 
