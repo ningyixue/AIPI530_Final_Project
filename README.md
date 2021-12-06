@@ -29,6 +29,20 @@ Install pybullet:
 - !pip install git+https://github.com/takuseno/d4rl-pybullet
 
 ## Execution
+- run cql_train.py
+Please note: my default setting for epochs is 20, and you can make changes if you go cql_train.py, and change the number after "EPOCHS:". 
+
+My Colab example: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1lrWwum2tzp38XVESQ-OC0GLQYbQSwRaV#scrollTo=Wcpp9bHNJD1l)
+
+## Logs and Plot in the Above Colab Example
+There are three logs that are saved and used for plotting purposes:
+- environment_cql.csv (CQL - For average reward)
+- estimated_q.csv (CQL - For estimated q value)
+- init_value.csv (FQE - For FQE estimated q value)
+You can find the three files under '/d3rlpy/examples/pybullet/d3rlpy_logs' once you finished running cql_train.py
+
+Here is the graphs received from the most recent execution data:
+
 
 
 
