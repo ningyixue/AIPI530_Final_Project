@@ -1,37 +1,10 @@
-<p align="center"><img align="center" width="300px" src="assets/logo.png"></p>
-Minor Change
-# d3rlpy: An offline deep reinforcement learning library
+# AIPI 530 Final Project
 
-![test](https://github.com/takuseno/d3rlpy/workflows/test/badge.svg)
-![build](https://github.com/takuseno/d3rlpy/workflows/build/badge.svg)
-[![Documentation Status](https://readthedocs.org/projects/d3rlpy/badge/?version=latest)](https://d3rlpy.readthedocs.io/en/latest/?badge=latest)
-[![codecov](https://codecov.io/gh/takuseno/d3rlpy/branch/master/graph/badge.svg?token=AQ02USKN6Y)](https://codecov.io/gh/takuseno/d3rlpy)
-[![Maintainability](https://api.codeclimate.com/v1/badges/c9162eb736d0b0f612d8/maintainability)](https://codeclimate.com/github/takuseno/d3rlpy/maintainability)
-[![Gitter](https://img.shields.io/gitter/room/d3rlpy/d3rlpy)](https://gitter.im/d3rlpy/d3rlpy)
-![MIT](https://img.shields.io/badge/license-MIT-blue)
+This repo is for AIPI 530 final project, and the goal of this project is to build a pipeline for offline reinforcement learning on top of d3rlpy[https://github.com/takuseno/d3rlpy]
 
-d3rlpy is an offline deep reinforcement learning library for practitioners and researchers.
+## Preface - Reinforcement Learning
 
-```py
-import d3rlpy
 
-dataset, env = d3rlpy.datasets.get_dataset("hopper-medium-v0")
-
-# prepare algorithm
-sac = d3rlpy.algos.SAC()
-
-# train offline
-sac.fit(dataset, n_steps=1000000)
-
-# train online
-sac.fit_online(env, n_steps=1000000)
-
-# ready to control
-actions = sac.predict(x)
-```
-
-- Documentation: https://d3rlpy.readthedocs.io
-- Paper: https://arxiv.org/abs/2111.03788
 
 ## key features
 
