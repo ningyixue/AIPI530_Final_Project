@@ -29,7 +29,7 @@ Install pybullet:
 - !pip install git+https://github.com/takuseno/d4rl-pybullet
 
 ## Execution
-- run cql_train.py
+- !python train_cql.py
 
 #### Please note: my default setting for epochs is 20, and you can make changes if you go cql_train.py, and change the number after "EPOCHS:". 
 
