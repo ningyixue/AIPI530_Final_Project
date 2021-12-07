@@ -4,7 +4,7 @@
 This repo is for AIPI 530 final project, and the goal of this project is to build a pipeline for offline reinforcement learning on top of [d3rlpy](https://github.com/takuseno/d3rlpy)
 
 ## Preface - Reinforcement Learning
-Please check out this [blog]() post for basic understanding of reinforcement learning. The following information is included in the blog post:
+Please check out this [blog](https://ningyixue.medium.com/basic-introduction-of-reinforcement-learning-65a48e305a9d) post for basic understanding of reinforcement learning. The following information is included in the blog post:
 - What is reinforcement learning?
 - What are the pros and cons of reinforcement learning?
 - When should we consider applying reinforcement learning (and when should not)?
